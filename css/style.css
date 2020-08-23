@@ -230,6 +230,11 @@ h3 {
   align-items: flex-start;
 }
 
+.news-image {
+  display: block;
+  width: 100%;
+}
+
 .news:nth-child(n + 2) {
   margin-top: 60px;
 }
