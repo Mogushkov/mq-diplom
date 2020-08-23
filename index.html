@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -137,7 +138,7 @@
                 <a href="#0" class="news-title-link page-link">10 мест, ради которых стоит проснуться на рассвете</a>
               </h3>
               <div class=news-content-info>
-                <time class="news-content-date">10 июня 2019</time>
+                <time class="news-content-date" datetime="2019-06-10">10 июня 2019</time>
                 <div class="news-content-author">
                   <a href="#0" class="news-content-authorlink page-link">Неизвестный автор</a>
                 </div>
@@ -166,7 +167,7 @@
                 <a href="#0" class="news-title-link page-link">Йога для начинающих в домашних условиях</a>
               </h3>
               <div class=news-content-info>
-                <time class="news-content-date">10 июня 2019</time>
+                <time class="news-content-date" datetime="2019-06-10">10 июня 2019</time>
                 <div class="news-content-author">
                   <a href="#0" class="news-content-authorlink page-link">Неизвестный автор</a>
                 </div>
@@ -192,7 +193,7 @@
                 <a href="#0" class="news-title-link page-link">Лучшие музыкальные фестивали этого лета</a>
               </h3>
               <div class=news-content-info>
-                <time class="news-content-date">10 июня 2019</time>
+                <time class="news-content-date" datetime="2019-06-10">10 июня 2019</time>
                 <div class="news-content-author">
                   <a href="#0" class="news-content-authorlink page-link">Неизвестный автор</a>
                 </div>
@@ -222,7 +223,7 @@
                 <a href="#0" class="news-title-link page-link">Наукоёмкий подход к кулинарии</a>
               </h3>
               <div class=news-content-info>
-                <time class="news-content-date">10 июня 2019</time>
+                <time class="news-content-date" datetime="2019-06-10">10 июня 2019</time>
                 <div class="news-content-author">
                   <a href="#0" class="news-content-authorlink page-link">Неизвестный автор</a>
                 </div>
@@ -254,7 +255,7 @@
                 <a href="#0" class="news-title-link page-link">Делаем модные принты на подушках для интерьера</a>
               </h3>
               <div class=news-content-info>
-                <time class="news-content-date">10 июня 2019</time>
+                <time class="news-content-date" datetime="2019-06-10">10 июня 2019</time>
                 <div class="news-content-author">
                   <a href="#0" class="news-content-authorlink page-link">Неизвестный автор</a>
                 </div>
@@ -274,7 +275,7 @@
               <img src="images/2.jpg" alt="Человек на пляже" width="70">
             </div>
             <div class="recent-content">
-              <time class="recent-content-date">14 июня 2019</time>
+              <time class="recent-content-date" datetime="2019-06-14">14 июня 2019</time>
               <h3 class="recent-content-title">
                 <a href="#0" class="recent-title-link page-link">10 мест, ради которых стоит проснуться</a>
               </h3>
@@ -285,7 +286,7 @@
               <img src="images/151.jpg" alt="Йога" width="70">
             </div>
             <div class="recent-content">
-              <time class="recent-content-date">14 июня 2019</time>
+              <time class="recent-content-date" datetime="2019-06-14">14 июня 2019</time>
               <h3 class="recent-content-title">
                 <a href="#0" class="recent-title-link page-link">Йога для домашних</a>
               </h3>
@@ -296,7 +297,7 @@
               <img src="images/45.jpg" alt="Комната с пианино" width="70">
             </div>
             <div class="recent-content">
-              <time class="recent-content-date">14 июня 2019</time>
+              <time class="recent-content-date" datetime="2019-06-14">14 июня 2019</time>
               <h3 class="recent-content-title">
                 <a href="#0" class="recent-title-link page-link">Как мы превратили классное место в балкон</a>
               </h3>
@@ -307,7 +308,7 @@
               <img src="images/501.jpg" alt="Еда на столе" width="70">
             </div>
             <div class="recent-content">
-              <time class="recent-content-date">14 июня 2019</time>
+              <time class="recent-content-date" datetime="2019-06-14">14 июня 2019</time>
               <h3 class="recent-content-title">
                 <a href="#0" class="recent-title-link page-link">Кулинарный подход к науке</a>
               </h3>
@@ -318,7 +319,7 @@
               <img src="images/7.jpg" alt="Девушки спиной" width="70">
             </div>
             <div class="recent-content">
-              <time class="recent-content-date">14 июня 2019</time>
+              <time class="recent-content-date" datetime="2019-06-14">14 июня 2019</time>
               <h3 class="recent-content-title">
                 <a href="#0" class="recent-title-link page-link">Лучшие прически для распущенных волос</a>
               </h3>
@@ -507,38 +508,42 @@
     </div>
   </footer>
 
- <div id="popup-id" class="popup">
+  <div id="popup-id" class="popup">
     <div class="popup-body">
-        <a href="#subscribe" class="popup-close"><img src="svg/form-x.svg" alt="close-symbol"></a>
-        <header class="popup-header">
-            <h4 class="popup-header-text">ВАШ ФИДБЕК</h4>
-        </header>
-        <form class="popup-form" action="#">
-            <div class="popup-select-block popup-block">
-                <label for="select" class="popup-label"><p class="pop-question">Как часто вы заходите на сайт?</p>
-                </label>
-                <select class="popup-select" id="select">
-                    <option class="select-items" value="every-day" selected>Почти каждый день</option>
-                </select>
-            </div>
-            <div class="popup-radio-block popup-block">
-                <p class="pop-question">Вы подписаны на e-mail рассылку?</p>
-                <div class="radio-block">
-                    <label for="yes">
-                        <input class="popup-radio" id="yes" type="radio" name="popup-radio" value="yes" checked><span class="radio-text">Да</span>
-                    </label>
-                    <label for="no">
-                        <input class="popup-radio" id="no" type="radio" name="popup-radio" value="no"><span class="radio-text">Нет</span>
-                    </label>
-                </div>
-            </div>
-            <div class="popup-textarea-block popup-block">
-                <label for="textarea" class="popup-label"><p class="pop-question">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p></label>
-                <textarea class="popup-textarea" id="textarea" name="textarea" placeholder="Может, больше рецептов?"></textarea>
-            </div>
-            <button class="popup-button" type="submit">ОТПРАВИТЬ</button>
-        </form>
+      <a href="#subscribe" class="popup-close"><img src="svg/form-x.svg" alt="close-symbol"></a>
+      <header class="popup-header">
+        <h4 class="popup-header-text">ВАШ ФИДБЕК</h4>
+      </header>
+      <form class="popup-form" action="#">
+        <div class="popup-select-block popup-block">
+          <label for="select" class="popup-label">
+            <p class="pop-question">Как часто вы заходите на сайт?</p>
+          </label>
+          <select class="popup-select" id="select">
+            <option class="select-items" value="every-day" selected>Почти каждый день</option>
+          </select>
+        </div>
+        <div class="popup-radio-block popup-block">
+          <p class="pop-question">Вы подписаны на e-mail рассылку?</p>
+          <div class="radio-block">
+            <label for="yes">
+              <input class="popup-radio" id="yes" type="radio" name="popup-radio" value="yes" checked><span class="radio-text">Да</span>
+            </label>
+            <label for="no">
+              <input class="popup-radio" id="no" type="radio" name="popup-radio" value="no"><span class="radio-text">Нет</span>
+            </label>
+          </div>
+        </div>
+        <div class="popup-textarea-block popup-block">
+          <label for="textarea" class="popup-label">
+            <p class="pop-question">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p>
+          </label>
+          <textarea class="popup-textarea" id="textarea" name="textarea" placeholder="Может, больше рецептов?"></textarea>
+        </div>
+        <button class="popup-button" type="submit">ОТПРАВИТЬ</button>
+      </form>
     </div>
-</div>
+  </div>
 </body>
+
 </html>
