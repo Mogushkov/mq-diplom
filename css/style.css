@@ -342,7 +342,7 @@ h3 {
 
 .recent {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
 }
 
